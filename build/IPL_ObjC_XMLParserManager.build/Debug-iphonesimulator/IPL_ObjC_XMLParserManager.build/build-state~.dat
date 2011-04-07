@@ -1,0 +1,367 @@
+TIPL_ObjC_XMLParserManager
+v7
+r0
+t322302216.778708
+cCheck dependencies
+cProcessInfoPlistFile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/Info.plist IPL_ObjC_XMLParserManager-Info.plist
+cCompileXIB /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib
+cProcessPCH /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch.gch IPL_ObjC_XMLParserManager_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/main.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManagerAppDelegate.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/NSDataAdditions.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/TBXML.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/Connection.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/ConnectionManager.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C46C8B80000000000000132
+t1279707320
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/zlib.h
+c000000004A1F0FE200000000000102A5
+t1243549666
+s66213
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h
+c000000004D85B8BF00000000000003DB
+t1300609215
+s987
+i<UIKit/UIKit.h>
+i"ConnectionDelegate.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m
+c000000004D85B8D3000000000000068B
+t1300609235
+s1675
+i"Connection.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h
+c000000004D85B91700000000000001CC
+t1300609303
+s460
+i<UIKit/UIKit.h>
+i"Connection.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h
+c000000004D85B98100000000000002E1
+t1300609409
+s737
+i<Foundation/Foundation.h>
+i"Connection.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m
+c000000004D85B6DA00000000000000FD
+t1300608730
+s253
+i"ConnectionManager.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.h
+c000000004D845C0E000000000000018F
+t1300519950
+s399
+i<UIKit/UIKit.h>
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m
+c000000004D845C0E0000000000000A1A
+t1300519950
+s2586
+i"IPL_ObjC_XMLParserManagerAppDelegate.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/IPL_ObjC_XMLParserManager_Prefix.pch
+c000000004D845C0E00000000000000DB
+t1300519950
+s219
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib
+c000000004D845C0E0000000000002162
+t1300519950
+s8546
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.h
+c000000004BF3E1060000000000000A67
+t1274274054
+s2663
+i<Foundation/Foundation.h>
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m
+c000000004BF3E10600000000000025EE
+t1274274054
+s9710
+i"NSDataAdditions.h"
+i<zlib.h>
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.h
+c000000004BF3E10600000000000012D1
+t1274274054
+s4817
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m
+c000000004BF3E10600000000000046DA
+t1274274054
+s18138
+i"TBXML.h"
+i"NSDataAdditions.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app
+t2
+s0
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app.dSYM
+t2
+s0
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager
+t2
+s0
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/Info.plist
+t1300609413
+s669
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/MainWindow.nib
+t1300609414
+s1002
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/PkgInfo
+t1300609413
+s8
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/Connection.o
+t2
+s0
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/ConnectionManager.o
+t2
+s0
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManager.LinkFileList
+c000000004D85B9850000000000000429
+t1300609413
+s1065
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManagerAppDelegate.o
+t1300609416
+s46996
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/NSDataAdditions.o
+t1300609416
+s17572
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/TBXML.o
+t1300609416
+s37196
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/main.o
+t1300609416
+s6320
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m
+c000000004D845C0E000000000000018D
+t1300519950
+s397
+i<UIKit/UIKit.h>
+
+N/var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch.gch
+t1300609416
+s15232016
+
+NIPL_ObjC_XMLParserManager-Info.plist
+c000000004D845C0E000000000000038D
+t1300519950
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322302213#322302213#0(0"0(0#1#0"8633401408#0"0#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/Connection.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302216.667110
+e322302216.778428
+r0
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/Connection.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:10,
+o                 from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:9:
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:15: error: expected ')' before 'Connection'
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:17: error: expected ')' before 'Connection'
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:18: error: expected ')' before 'Connection'
+oIn file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:9:
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:20: error: expected specifier-qualifier-list before 'TBXML'
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:24: error: can not use an object as parameter to a method
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:33: error: expected specifier-qualifier-list before 'TBXML'
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:34: error: expected specifier-qualifier-list before 'delegate'
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:13: error: no declaration of property 'xmlParseredData' found in the interface
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:14: error: no declaration of property 'delegate' found in the interface
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:15: error: can not use an object as parameter to a method
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m: In function '-[Connection initWithURLRequest:targetURL:]':
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:18: error: cannot convert to a pointer type
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:19: error: 'targetURL' undeclared (first use in this function)
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:19: error: (Each undeclared identifier is reported only once
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:19: error: for each function it appears in.)
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:21: warning: control reaches end of non-void function
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m: In function '-[Connection requestForURL]':
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:24: error: 'targetURL' undeclared (first use in this function)
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:26: warning: passing argument 1 of 'stringWithFormat:' from incompatible pointer type
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m: In function '-[Connection connectionDidFinishLoading:]':
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:43: error: 'xmlParseredData' undeclared (first use in this function)
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:43: error: 'TBXML' undeclared (first use in this function)
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m: In function '-[Connection dealloc]':
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:54: error: 'xmlParseredData' undeclared (first use in this function)
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m: At top level:
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:55: warning: method possibly missing a [super dealloc] call
+lSLF07#2@76"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302216#322302216#0(3571"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:10,                 from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:9:/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:15: error: expected ')' before 'Connection'/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:17: error: expected ')' before 'Connection'/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:18: error: expected ')' before 'Connection'In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:9:/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:20: error: expected specifier-qualifier-list before 'TBXML'/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:24: error: can not use an object as parameter to a method/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:33: error: expected specifier-qualifier-list before 'TBXML'/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:34: error: expected specifier-qualifier-list before 'delegate'/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:13: error: no declaration of property 'xmlParseredData' found in the interface/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:14: error: no declaration of property 'delegate' found in the interface/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:15: error: can not use an object as parameter to a method/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m: In function '-[Connection initWithURLRequest:targetURL:]':/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:18: error: cannot convert to a pointer type/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:19: error: 'targetURL' undeclared (first use in this function)/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:19: error: (Each undeclared identifier is reported only once/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:19: error: for each function it appears in.)/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:21: warning: control reaches end of non-void function/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m: In function '-[Connection requestForURL]':/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:24: error: 'targetURL' undeclared (first use in this function)/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:26: warning: passing argument 1 of 'stringWithFormat:' from incompatible pointer type/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m: In function '-[Connection connectionDidFinishLoading:]':/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:43: error: 'xmlParseredData' undeclared (first use in this function)/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:43: error: 'TBXML' undeclared (first use in this function)/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m: In function '-[Connection dealloc]':/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:54: error: 'xmlParseredData' undeclared (first use in this function)/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m: At top level:/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m:55: warning: method possibly missing a [super dealloc] call20(4@32"Expected ')' before 'Connection'322302216#189#121#3(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#9#0#9#0#0"0(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#10#0#10#0#0"0(13@112"Expected ')' before 'Connection' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302216#18446744073709551615#0#0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#15#0#15#0#0"0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#15#0#15#0#19"expected * before *0(4@32"Expected ')' before 'Connection'322302216#310#121#3(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#9#0#9#0#0"0(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#10#0#10#0#0"0(13@112"Expected ')' before 'Connection' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302216#18446744073709551615#0#0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#17#0#17#0#0"0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#17#0#17#0#19"expected * before *0(4@32"Expected ')' before 'Connection'322302216#431#121#3(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#9#0#9#0#0"0(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#10#0#10#0#0"0(13@112"Expected ')' before 'Connection' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302216#18446744073709551615#0#0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#18#0#18#0#0"0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#18#0#18#0#19"expected * before *0(4@48"Expected specifier-qualifier-list before 'TBXML'322302216#646#129#2(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#9#0#9#0#0"0(13@120"Expected specifier-qualifier-list before 'TBXML' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#20#0#20#0#0"0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#20#0#20#0#19"expected * before *0(4@46"Can not use an object as parameter to a method322302216#775#127#2(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#9#0#9#0#0"0(13@118"Can not use an object as parameter to a method in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#24#0#24#0#0"0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#24#0#24#0#0"0(4@48"Expected specifier-qualifier-list before 'TBXML'322302216#902#129#2(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#9#0#9#0#0"0(13@120"Expected specifier-qualifier-list before 'TBXML' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#33#0#33#0#0"0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#33#0#33#0#19"expected * before *0(4@51"Expected specifier-qualifier-list before 'delegate'322302216#1031#132#2(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#9#0#9#0#0"0(13@123"Expected specifier-qualifier-list before 'delegate' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#34#0#34#0#0"0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#34#0#34#0#19"expected * before *0(4@67"No declaration of property 'xmlParseredData' found in the interface322302216#1163#148#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#13#0#13#0#0"0(4@60"No declaration of property 'delegate' found in the interface322302216#1311#141#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#14#0#14#0#0"0(4@46"Can not use an object as parameter to a method322302216#1452#127#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#15#0#15#0#0"0(4@32"Cannot convert to a pointer type322302216#1708#113#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#18#0#18#0#0"0(4@51"'targetURL' undeclared (first use in this function)322302216#1821#132#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#19#0#19#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function322302216#2197#123#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#21#0#21#0#40"control reaches end of non-void function0(4@51"'targetURL' undeclared (first use in this function)322302216#2433#132#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#24#0#24#0#43"'*' undeclared (first use in this function)0(22@72"Passing argument 1 of 'stringWithFormat:' from incompatible pointer type322302216#2565#155#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#26#0#26#0#56"passing argument * of '*' from incompatible pointer type0(4@57"'xmlParseredData' undeclared (first use in this function)322302216#2847#138#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#43#0#43#0#43"'*' undeclared (first use in this function)0(4@47"'TBXML' undeclared (first use in this function)322302216#2985#128#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#43#0#43#0#43"'*' undeclared (first use in this function)0(4@57"'xmlParseredData' undeclared (first use in this function)322302216#3220#138#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#54#0#54#0#43"'*' undeclared (first use in this function)0(23@13"At top level:322302216#3358#84#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#0#0#0#0#0"0(22@46"Method possibly missing a [super dealloc] call322302216#3442#129#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322302035#55#0#55#0#46"method possibly missing a [super dealloc] call0(0#0#68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m8651029024#2380"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/Connection.o1#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/ConnectionManager.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302216.690937
+e322302216.778642
+r0
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/ConnectionManager.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:10,
+o                 from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h:10,
+o                 from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:9:
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:15: error: expected ')' before 'Connection'
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:17: error: expected ')' before 'Connection'
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:18: error: expected ')' before 'Connection'
+oIn file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h:10,
+o                 from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:9:
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:20: error: expected specifier-qualifier-list before 'TBXML'
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:24: error: can not use an object as parameter to a method
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:33: error: expected specifier-qualifier-list before 'TBXML'
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:34: error: expected specifier-qualifier-list before 'delegate'
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:14: warning: incomplete implementation of class 'ConnectionManager'
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:14: warning: method definition for '-connectionQueryingThreadProcess' not found
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:14: warning: method definition for '-newXMLConnection:specificDelegate:' not found
+o/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:14: warning: method definition for '-init' not found
+lSLF07#2@83"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322302216#322302216#0(1969"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:10,                 from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h:10,                 from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:9:/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:15: error: expected ')' before 'Connection'/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:17: error: expected ')' before 'Connection'/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h:18: error: expected ')' before 'Connection'In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h:10,                 from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:9:/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:20: error: expected specifier-qualifier-list before 'TBXML'/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:24: error: can not use an object as parameter to a method/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:33: error: expected specifier-qualifier-list before 'TBXML'/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h:34: error: expected specifier-qualifier-list before 'delegate'/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:14: warning: incomplete implementation of class 'ConnectionManager'/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:14: warning: method definition for '-connectionQueryingThreadProcess' not found/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:14: warning: method definition for '-newXMLConnection:specificDelegate:' not found/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m:14: warning: method definition for '-init' not found11(4@32"Expected ')' before 'Connection'322302216#298#121#4(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322301530#9#0#9#0#0"0(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302209#10#0#10#0#0"0(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#10#0#10#0#0"0(13@112"Expected ')' before 'Connection' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302216#18446744073709551615#0#0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#15#0#15#0#0"0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#15#0#15#0#19"expected * before *0(4@32"Expected ')' before 'Connection'322302216#419#121#4(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322301530#9#0#9#0#0"0(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302209#10#0#10#0#0"0(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#10#0#10#0#0"0(13@112"Expected ')' before 'Connection' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302216#18446744073709551615#0#0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#17#0#17#0#0"0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#17#0#17#0#19"expected * before *0(4@32"Expected ')' before 'Connection'322302216#540#121#4(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322301530#9#0#9#0#0"0(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302209#10#0#10#0#0"0(7@90"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#10#0#10#0#0"0(13@112"Expected ')' before 'Connection' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302216#18446744073709551615#0#0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#18#0#18#0#0"0(6@76"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h322302103#18#0#18#0#19"expected * before *0(4@48"Expected specifier-qualifier-list before 'TBXML'322302216#864#129#3(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322301530#9#0#9#0#0"0(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302209#10#0#10#0#0"0(13@120"Expected specifier-qualifier-list before 'TBXML' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#20#0#20#0#0"0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#20#0#20#0#19"expected * before *0(4@46"Can not use an object as parameter to a method322302216#993#127#3(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322301530#9#0#9#0#0"0(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302209#10#0#10#0#0"0(13@118"Can not use an object as parameter to a method in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#24#0#24#0#0"0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#24#0#24#0#0"0(4@48"Expected specifier-qualifier-list before 'TBXML'322302216#1120#129#3(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322301530#9#0#9#0#0"0(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302209#10#0#10#0#0"0(13@120"Expected specifier-qualifier-list before 'TBXML' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#33#0#33#0#0"0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#33#0#33#0#19"expected * before *0(4@51"Expected specifier-qualifier-list before 'delegate'322302216#1249#132#3(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322301530#9#0#9#0#0"0(7@97"In file included from /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302216#18446744073709551615#0#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h322302209#10#0#10#0#0"0(13@123"Expected specifier-qualifier-list before 'delegate' in /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302216#18446744073709551615#0#0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#34#0#34#0#0"0(6@68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h322302015#34#0#34#0#19"expected * before *0(22@54"Incomplete implementation of class 'ConnectionManager'322302216#1381#144#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322301530#14#0#14#0#38"incomplete implementation of class '*'0(22@66"Method definition for '-connectionQueryingThreadProcess' not found322302216#1525#156#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322301530#14#0#14#0#35"method definition for '*' not found0(22@69"Method definition for '-newXMLConnection:specificDelegate:' not found322302216#1681#159#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322301530#14#0#14#0#35"method definition for '*' not found0(22@39"Method definition for '-init' not found322302216#1840#129#0(6@75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322301530#14#0#14#0#35"method definition for '*' not found0(0#0#75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m8635491072#2394"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/ConnectionManager.o1#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManagerAppDelegate.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302216.237446
+e322302216.540212
+r1
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManagerAppDelegate.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m322302216#322302216#0(0"0(0#0#94"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m8651059072#2432"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManagerAppDelegate.o0#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/NSDataAdditions.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302216.491304
+e322302216.666986
+r1
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/NSDataAdditions.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m322302216#322302216#0(0"0(0#0#71"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m8633466336#2388"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/NSDataAdditions.o0#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/TBXML.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302216.540320
+e322302216.690820
+r1
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/TBXML.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m322302216#322302216#0(0"0(0#0#61"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m8614244512#2368"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/TBXML.o0#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/main.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302216.206922
+e322302216.491199
+r1
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/main.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m322302216#322302216#0(0"0(0#0#54"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m8629867456#2360"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib
+s322302213.573806
+e322302214.433326
+r1
+xCompileXIB
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib322302213#322302214#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#62"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib8651648032#615"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/MainWindow.nib /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app.dSYM /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager
+r0
+
+CLd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager normal i386
+r0
+
+CProcessInfoPlistFile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/Info.plist IPL_ObjC_XMLParserManager-Info.plist
+s322302213.433137
+e322302213.573695
+r1
+xProcessInfoPlistFile
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/Info.plist
+xIPL_ObjC_XMLParserManager-Info.plist
+lSLF07#2@44"Process IPL_ObjC_XMLParserManager-Info.plist322302213#322302213#0(0"0(0#0#84"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/IPL_ObjC_XMLParserManager-Info.plist21673951170068548#560"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility IPL_ObjC_XMLParserManager-Info.plist -genpkginfo /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/Info.plist0#
+
+CProcessPCH /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch.gch IPL_ObjC_XMLParserManager_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302214.433606
+e322302216.206690
+r1
+xProcessPCH
+x/var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch.gch
+xIPL_ObjC_XMLParserManager_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Precompile IPL_ObjC_XMLParserManager_Prefix.pch322302214#322302216#0(0"0(0#0#84"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/IPL_ObjC_XMLParserManager_Prefix.pch8648892320#2225"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/IPL_ObjC_XMLParserManager_Prefix.pch -o /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch.gch0#
+
+CTouch /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app
+r0
+

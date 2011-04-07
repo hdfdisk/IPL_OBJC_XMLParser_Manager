@@ -1,0 +1,351 @@
+TIPL_ObjC_XMLParserManager
+v7
+r0
+t322308415.282617
+cCheck dependencies
+cProcessInfoPlistFile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/Info.plist IPL_ObjC_XMLParserManager-Info.plist
+cCompileXIB /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib
+cProcessPCH /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch.gch IPL_ObjC_XMLParserManager_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/main.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManagerAppDelegate.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/NSDataAdditions.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/TBXML.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/Connection.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/ConnectionManager.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager normal i386
+cGenerateDSYMFile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app.dSYM /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager
+cTouch /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C46C8B80000000000000132
+t1279707320
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/zlib.h
+c000000004A1F0FE200000000000102A5
+t1243549666
+s66213
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/libz.dylib
+c000000004AD4F6ED0000000000005D2C
+t1255470829
+s23852
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.h
+c000000004D85CC2B00000000000005E5
+t1300614187
+s1509
+i<UIKit/UIKit.h>
+i"TBXML.h"
+i"ConnectionManager.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m
+c000000004D85D1260000000000000A68
+t1300615462
+s2664
+i"Connection.h"
+i"ConnectionDelegate.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionDelegate.h
+c000000004D85B91700000000000001CC
+t1300609303
+s460
+i<UIKit/UIKit.h>
+i"Connection.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.h
+c000000004D85D1ED00000000000004EE
+t1300615661
+s1262
+i<Foundation/Foundation.h>
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m
+c000000004D85E2CE00000000000011CA
+t1300619982
+s4554
+i"ConnectionManager.h"
+i"Connection.h"
+i"ConnectionDelegate.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.h
+c000000004D845C0E000000000000018F
+t1300519950
+s399
+i<UIKit/UIKit.h>
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m
+c000000004D845C0E0000000000000A1A
+t1300519950
+s2586
+i"IPL_ObjC_XMLParserManagerAppDelegate.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/IPL_ObjC_XMLParserManager_Prefix.pch
+c000000004D845C0E00000000000000DB
+t1300519950
+s219
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib
+c000000004D845C0E0000000000002162
+t1300519950
+s8546
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.h
+c000000004BF3E1060000000000000A67
+t1274274054
+s2663
+i<Foundation/Foundation.h>
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m
+c000000004BF3E10600000000000025EE
+t1274274054
+s9710
+i"NSDataAdditions.h"
+i<zlib.h>
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.h
+c000000004BF3E10600000000000012D1
+t1274274054
+s4817
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m
+c000000004BF3E10600000000000046DA
+t1274274054
+s18138
+i"TBXML.h"
+i"NSDataAdditions.h"
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app
+t1300615615
+s204
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app.dSYM
+t1300615615
+s102
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager
+t1300615615
+s51396
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/Info.plist
+t1300609413
+s669
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/MainWindow.nib
+t1300609414
+s1002
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/PkgInfo
+t1300609413
+s8
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/Connection.o
+t1300615479
+s22848
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/ConnectionManager.o
+t1300615614
+s24208
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManager.LinkFileList
+c000000004D85B9850000000000000429
+t1300609413
+s1065
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManagerAppDelegate.o
+t1300609416
+s46996
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/NSDataAdditions.o
+t1300609416
+s17572
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/TBXML.o
+t1300609416
+s37196
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/main.o
+t1300609416
+s6320
+
+N/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m
+c000000004D845C0E000000000000018D
+t1300519950
+s397
+i<UIKit/UIKit.h>
+
+N/var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch.gch
+t1300609416
+s15232016
+
+NIPL_ObjC_XMLParserManager-Info.plist
+c000000004D845C0E000000000000038D
+t1300519950
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322308414#322308414#0(0"0(0#1#0"8635552576#0"0#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/Connection.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322308279.357668
+e322308279.478620
+r1
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/Connection.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m322308279#322308279#0(0"0(0#0#68"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m8629267520#2380"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/Connection.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/Connection.o0#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/ConnectionManager.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322308414.549081
+e322308414.730291
+r1
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/ConnectionManager.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m322308414#322308414#0(0"0(0#0#75"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m8634435200#2394"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/ConnectionManager.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/ConnectionManager.o0#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManagerAppDelegate.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302216.237446
+e322302216.540212
+r1
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManagerAppDelegate.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m322302216#322302216#0(0"0(0#0#94"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m8651059072#2432"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/Classes/IPL_ObjC_XMLParserManagerAppDelegate.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManagerAppDelegate.o0#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/NSDataAdditions.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302216.491304
+e322302216.666986
+r1
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/NSDataAdditions.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m322302216#322302216#0(0"0(0#0#71"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m8633466336#2388"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/NSDataAdditions.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/NSDataAdditions.o0#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/TBXML.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302216.540320
+e322302216.690820
+r1
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/TBXML.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m322302216#322302216#0(0"0(0#0#61"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m8614244512#2368"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/TBXML/TBXML.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/TBXML.o0#
+
+CCompileC build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/main.o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302216.206922
+e322302216.491199
+r1
+xCompileC
+xbuild/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/main.o
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m322302216#322302216#0(0"0(0#0#54"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m8629867456#2360"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -include /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/main.m -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib
+s322302213.573806
+e322302214.433326
+r1
+xCompileXIB
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib322302213#322302214#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#62"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib8651648032#615"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/MainWindow.nib /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app.dSYM /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager
+s322308415.189810
+e322308415.280138
+r1
+xGenerateDSYMFile
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app.dSYM
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager
+lSLF07#2@163"GenerateDSYMFile build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app.dSYM build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager322308415#322308415#0(0"0(0#0#131"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager8656308384#464"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app.dSYM0#
+
+CLd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager normal i386
+s322308414.730392
+e322308415.189683
+r1
+xLd
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager
+xnormal
+xi386
+lSLF07#2@136"Link /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager322308414#322308415#0(0"0(0#0#0"8647338688#1039"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -filelist /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/Objects-normal/i386/IPL_ObjC_XMLParserManager.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lz -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/IPL_ObjC_XMLParserManager0#
+
+CProcessInfoPlistFile /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/Info.plist IPL_ObjC_XMLParserManager-Info.plist
+s322302213.433137
+e322302213.573695
+r1
+xProcessInfoPlistFile
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/Info.plist
+xIPL_ObjC_XMLParserManager-Info.plist
+lSLF07#2@44"Process IPL_ObjC_XMLParserManager-Info.plist322302213#322302213#0(0"0(0#0#84"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/IPL_ObjC_XMLParserManager-Info.plist21673951170068548#560"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility IPL_ObjC_XMLParserManager-Info.plist -genpkginfo /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app/Info.plist0#
+
+CProcessPCH /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch.gch IPL_ObjC_XMLParserManager_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322302214.433606
+e322302216.206690
+r1
+xProcessPCH
+x/var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch.gch
+xIPL_ObjC_XMLParserManager_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Precompile IPL_ObjC_XMLParserManager_Prefix.pch322302214#322302216#0(0"0(0#0#84"/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/IPL_ObjC_XMLParserManager_Prefix.pch8648892320#2225"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-generated-files.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-own-target-headers.hmap -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-all-target-headers.hmap -iquote /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/IPL_ObjC_XMLParserManager-project-headers.hmap -F/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/include -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources/i386 -I/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/IPL_ObjC_XMLParserManager.build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.build/DerivedSources -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/IPL_ObjC_XMLParserManager_Prefix.pch -o /var/folders/wu/wucWgoOiGkibutGkm-MDmE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IPL_ObjC_XMLParserManager_Prefix-dsaqpuctaftwrweciorlwkgzkytb/IPL_ObjC_XMLParserManager_Prefix.pch.gch0#
+
+CTouch /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app
+s322308415.280230
+e322308415.282580
+r1
+xTouch
+x/Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app
+lSLF07#2@111"Touch /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app322308415#322308415#0(0"0(0#0#0"8657529824#314"    cd /Users/Phoenix/Source/IPL_ObjC_XMLParserManager    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Phoenix/Source/IPL_ObjC_XMLParserManager/build/Debug-iphonesimulator/IPL_ObjC_XMLParserManager.app0#
+
