@@ -13,25 +13,25 @@
 
 
 @implementation ConnectionManager
-@synthesize selfHashID;
+@synthesize selfUUID;
 -(id)init {
 	[super init];
 	timeOutInterval = 10;
 	cachePolicy = NSURLRequestUseProtocolCachePolicy;
 	ifAutoRetry = NO;
 	allConnection = [[NSMutableDictionary alloc] init];
-	allPendingConnection = [[NSMutableArray alloc] init];
+	allPendingConnection = nil;
 	sharedRequest = [[NSMutableURLRequest alloc] init];
 	[sharedRequest setCachePolicy:cachePolicy];
 	[sharedRequest setTimeoutInterval:timeOutInterval];
-	selfHashID = [self hash];
-	[[NSFileManager defaultManager] createDirectoryAtPath:[NSString stringWithFormat:@"%@%qu",NSTemporaryDirectory(),selfHashID]
+	selfUUID = CFUUIDCreate(NULL);
+    sharedDelegate = nil;
+/*	[[NSFileManager defaultManager] createDirectoryAtPath:[NSString stringWithFormat:@"%@%qu",NSTemporaryDirectory(),selfHashID]
 							  withIntermediateDirectories:YES
 											   attributes:[[NSFileManager defaultManager] attributesOfItemAtPath:NSTemporaryDirectory() error:nil]
-													error:nil];
-	/* Create a Directory for all XML File belongs to this Connection Manager Instance */
-	queryingThread = [[NSThread alloc] initWithTarget:self selector:@selector(connectionQueryingThreadProcess) object:nil];
-	return self;
+													error:nil]; */
+    queryingThread = nil;    
+    return self;
 }
 
 +(id)sharedConnectionManager {
@@ -57,17 +57,20 @@
 	cachePolicy = policy;
 	ifAutoRetry = ifRetry;
 	sharedDelegate = delegate;
-	allConnection = [[NSMutableDictionary alloc] init];
-    allPendingConnection = nil;
+    [allPendingConnection release];
     if (ifQueued) {
         allPendingConnection = [[NSMutableArray alloc] init];
+    }else {
+        allPendingConnection = nil;
     }
-	sharedRequest = [[NSMutableURLRequest alloc] init];
 	[sharedRequest setCachePolicy:cachePolicy];
 	[sharedRequest setTimeoutInterval:timeOutInterval];
-	selfUUID = CFUUIDCreate(NULL);
     if (ifQueued) {
+        [queryingThread release];
         queryingThread = [[NSThread alloc] initWithTarget:self selector:@selector(connectionQueryingThreadProcess) object:nil];
+    }else {
+        [queryingThread release];
+        queryingThread = nil;
     }
 }
 

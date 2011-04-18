@@ -7,28 +7,36 @@ This Class provides a Low-Memory solution for parser online XML
 It will parse the targeted XML ONE AT A TIME based on FIFO policy
 XML will be downloaded to a temporary folder and then parse.
 
--(id)init;
++(id) sharedConnectionManager;
+Return a Singleton Instance of Connection Manager
+
+-(id)init; NEVER CALL THIS METHOD DIRECTLY
 This will initialize a Connection Manager Instance with Default Settings:
 Timeout For a Connection: 10 seconds
 URLRequestCachePolicy:  NSURLRequestUseProtocolCachePolicy;
 No Autoretry when Connection Failed
-No Shared Delegate
+No Shared Delegate Created
+No Queued-Request;
 
--(id)initWithTimeInterval:(NSUInteger)timeInMS 
+
+-(void)setWithTimeInterval:(NSUInteger)timeInMS 
 	URLRequestCachePolicy:(NSURLRequestCachePolicy)policy
+				queuedRequest:(BOOL)ifqueued
 				AutoRetry:(BOOL)ifRetry
 		   SharedDelegate:(id)delegate;
-This will Initialize a connection manager instance with specific setting;
+This is used to configure a connection manager instance with specific setting;
 If Auto-retry is on, the manager will put the retrying connection on the last of its execution queue.
+If Queued-Request is on, the manager will execute connection request one at a time.
 
--(NSUInteger) newXMLConnection:(NSURL *)targetURL
+
+-(CFUUIDRef) newXMLConnection:(NSURL *)targetURL
 			  specificDelegate:(id)delegate;
 Create a new connection under the management of target instance.
 You have to specific a delegate if there is no shared delegate specified before.
-Return a Hash-id for this connection.
+Return a uuid for this connection.
 
--(id)getTheConnectionFromUUID:(NSUInteger)uuid;
-Return a SUCCESSFULLY COMPLETED Connection Instance based on its Hash-id
+-(id)getTheConnectionFromUUID:(CFUUIDRef)uuid;
+Return a SUCCESSFULLY COMPLETED Connection Instance based on its UUID
 An ongoing / failed connection will not be returned at here.
 
 

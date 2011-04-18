@@ -42,5 +42,5 @@
 -(void)connectionQueryingThreadProcess; /* Never Directly Call this Method */
 -(id)getTheConnectionFromUUID:(CFUUIDRef)uuid;
 
-@property (nonatomic,readonly) CFUUIDRef selfHashID;
+@property (nonatomic,readonly) CFUUIDRef selfUUID;
 @end
