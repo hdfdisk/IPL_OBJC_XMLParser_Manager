@@ -34,23 +34,41 @@
 	return self;
 }
 
--(id)initWithTimeInterval:(NSUInteger)timeInMS 
-	URLRequestCachePolicy:(NSURLRequestCachePolicy)policy 
-				AutoRetry:(BOOL)ifRetry 
-		   SharedDelegate:(id <ConnectionDelegate>)delegate {
-	[super init];
++(id)sharedConnectionManager {
+    static ConnectionManager * sharedManager = nil;
+    static BOOL sharedConnectionManagerMethodInvolved = NO;
+    
+    while (sharedConnectionManagerMethodInvolved) {
+    }
+    sharedConnectionManagerMethodInvolved = YES;
+    if (!sharedManager) {
+        sharedManager = [[ConnectionManager alloc] init];
+    }
+    sharedConnectionManagerMethodInvolved = NO;
+    return sharedManager;
+}
+
+-(void)setWithTimeInterval:(NSUInteger)timeInMS 
+     URLRequestCachePolicy:(NSURLRequestCachePolicy)policy 
+             queuedRequest:(BOOL)ifQueued
+                 AutoRetry:(BOOL)ifRetry 
+            SharedDelegate:(id <ConnectionDelegate>)delegate {
 	timeOutInterval = timeInMS / 1000.0;
 	cachePolicy = policy;
 	ifAutoRetry = ifRetry;
 	sharedDelegate = delegate;
 	allConnection = [[NSMutableDictionary alloc] init];
-	allPendingConnection = [[NSMutableArray alloc] init];
+    allPendingConnection = nil;
+    if (ifQueued) {
+        allPendingConnection = [[NSMutableArray alloc] init];
+    }
 	sharedRequest = [[NSMutableURLRequest alloc] init];
 	[sharedRequest setCachePolicy:cachePolicy];
 	[sharedRequest setTimeoutInterval:timeOutInterval];
-	selfHashID = [self hash];
-	queryingThread = [[NSThread alloc] initWithTarget:self selector:@selector(connectionQueryingThreadProcess) object:nil];
-	return self;
+	selfUUID = CFUUIDCreate(NULL);
+    if (ifQueued) {
+        queryingThread = [[NSThread alloc] initWithTarget:self selector:@selector(connectionQueryingThreadProcess) object:nil];
+    }
 }
 
 -(void)connectionQueryingThreadProcess {
@@ -64,30 +82,40 @@
 }
 
 
--(NSUInteger) newXMLConnection:(NSURL *)targetURL
+-(CFUUIDRef) newXMLConnection:(NSURL *)targetURL
 			  specificDelegate:(id)delegate {
-	Connection * newConnection = [[Connection alloc] initWithURLRequest:sharedRequest parentManager:self targetURL:targetURL];
+    Connection * newConnection;
+    if (allPendingConnection) {
+        newConnection = [[Connection alloc] initWithURLRequest:[sharedRequest retain] parentManager:self targetURL:targetURL
+                                      ];
+        [allPendingConnection addObject:newConnection];
+    }else{
+        newConnection = [[Connection alloc] initWithURLRequest:[sharedRequest copy] parentManager:nil targetURL:targetURL];
+    }
+    
 	if (delegate) {
 		[newConnection setDelegate:delegate];
 	} else {
 		[newConnection setDelegate:sharedDelegate];
 	}
 	[newConnection setIfAutoRetry:ifAutoRetry];
-	NSUInteger hashID = [newConnection hash];
-	[allPendingConnection addObject:newConnection];
-	NSString * stringHashID = [NSString stringWithFormat:@"%qu",hashID];
-	[newConnection setSelfID:stringHashID];
-	[allConnection setValue:newConnection forKey:stringHashID];
-	[stringHashID release];
-	[newConnection release];
-	if ([queryingThread isFinished]) {
-		[queryingThread start];
-	}
-	return hashID;
+    
+	CFUUIDRef connectionUUID = CFUUIDCreate(NULL);
+	[newConnection setSelfID:connectionUUID];
+	[allConnection setValue:newConnection forKey:(NSString *)CFUUIDCreateString(NULL, connectionUUID)];
+    if (allPendingConnection) {
+        if ([queryingThread isFinished]) {
+            [queryingThread start];
+        }
+    }else {
+        [newConnection requestForURL];
+    }
+    [newConnection release];
+	return connectionUUID;
 }
 
 -(void) newXMLConnection:(NSURL *)targetURL 
-			  specificID:(NSString *)hashID 
+			  specificID:(CFUUIDRef)uuid 
 		specificDelegate:(id)delegate {
 	Connection * newConnection = [[Connection alloc] initWithURLRequest:sharedRequest parentManager:self targetURL:targetURL];
 	if (delegate) {
@@ -97,17 +125,17 @@
 	}
 	[newConnection setIfAutoRetry:ifAutoRetry];
 	[allPendingConnection addObject:newConnection];
-	[newConnection setSelfID:hashID];
-	[allConnection setValue:newConnection forKey:hashID];
+	[newConnection setSelfID:uuid];
+	[allConnection setValue:newConnection forKey:(NSString *)CFUUIDCreateString(NULL, uuid)];
 	[newConnection release];
 	if ([queryingThread isFinished]) {
 		[queryingThread start];
 	}
 }
 
--(id)getTheConnectionFromUUID:(NSUInteger)uuid {
-	NSString * stringHashID = [NSString stringWithFormat:@"%qu",uuid];
-	Connection * targetConnection = [allConnection valueForKey:stringHashID];
+-(id)getTheConnectionFromUUID:(CFUUIDRef)uuid {
+	NSString * stringID = (NSString*)CFUUIDCreateString(NULL, uuid);
+	Connection * targetConnection = [allConnection valueForKey:stringID];
 	/* Only get successfully completed connections */
 	if ([targetConnection ifCompleted] && (![targetConnection ifError])) {
 		return targetConnection;
@@ -121,8 +149,8 @@
 
 -(void)dealloc {
 	/* Destory All XML File and the Directory of this Connection Manager Instance */
-	[[NSFileManager defaultManager] removeItemAtPath:[NSString stringWithFormat:@"%@%qu",NSTemporaryDirectory(),selfHashID] 
-											   error:nil];
+/*	[[NSFileManager defaultManager] removeItemAtPath:[NSString stringWithFormat:@"%@\%@",NSTemporaryDirectory(),(NSString*)CFUUIDCreateString(NULL,selfUUID)] 
+											   error:nil]; */
 	[allPendingConnection release];
 	[allConnection release];
 	[sharedRequest release];

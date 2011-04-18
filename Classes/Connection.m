@@ -17,6 +17,7 @@
 @synthesize ifError;
 @synthesize ifAutoRetry;
 @synthesize selfID;
+
 -(id) initWithURLRequest:(NSMutableURLRequest *)sharedURLRequest
 		   parentManager:(ConnectionManager *)manager
 			   targetURL:(NSURL *)url {
@@ -31,52 +32,58 @@
 
 -(void)requestForURL {
 	[URLRequest setURL:targetUrl];
-	connectionOfURLRequest = [[NSURLConnection alloc] initWithRequest:URLRequest delegate:self startImmediately:NO];
-	uuidOfFile = [NSString stringWithFormat:@"%@%qu/%qu.xml",NSTemporaryDirectory(),[parentManager selfHashID],[connectionOfURLRequest hash]];
+    downloadedData = [NSMutableData dataWithLength:1]; 
+	connectionOfURLRequest = [[NSURLConnection alloc] initWithRequest:URLRequest delegate:self startImmediately:YES];
+/*	uuidOfFile = [NSString stringWithFormat:@"%@%qu/%qu.xml",NSTemporaryDirectory(),[parentManager selfHashID],[connectionOfURLRequest hash]]; */
 	/*Uniquely Create file name for each Connection Manager and Connection */
-	[[NSFileManager defaultManager] removeItemAtPath:uuidOfFile error:nil];
-	fileOutputStream = [NSOutputStream outputStreamToFileAtPath:uuidOfFile append:YES];
+/*	[[NSFileManager defaultManager] removeItemAtPath:uuidOfFile error:nil];
+	fileOutputStream = [NSOutputStream outputStreamToFileAtPath:uuidOfFile append:YES]; */
 	/* Download the XML First */
-	[connectionOfURLRequest start];
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
 	/* Incrementally writing a local temporary XML File */
-	[fileOutputStream write:[data bytes] maxLength:[data length]+1];
+    [downloadedData appendData:data];
+
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
 	[(id<ConnectionDelegate>)delegate connection:self failedWithError:error];
 	ifCompleted = YES;
 	ifError = YES;
-	[fileOutputStream close];
 	if (ifAutoRetry) {
-		[parentManager newXMLConnection:targetUrl
-							 specificID:selfID
-					   specificDelegate:delegate];
+        if (parentManager) {
+            [parentManager newXMLConnection:targetUrl
+                                 specificID:selfID
+                           specificDelegate:delegate];
+            [self autorelease];
+
+        }else{
+            [downloadedData release];
+            [connectionOfURLRequest release];
+            [self requestForURL];
+        }
 	}
-    [self autorelease];
 	/* When Auto Retrying, query a new request to the connection manager with same UUID */
 	/* This will forbade a connection that always retrying and using too much resources */
 	/* old connection will be destoryed */
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-	[fileOutputStream close];
 	[delegate connectionDownloadCompleted:self];
-	xmlParseredData = [TBXML tbxmlWithXMLFile:uuidOfFile];
-	/* TBXML Open the temporary XML File */
+	xmlParseredData = [TBXML tbxmlWithXMLData:downloadedData];
+	/* TBXML Open the temporary XML Data */
 	ifCompleted = YES;
 	[delegate xmlParseredCompleted:self];
 }
 
 -(void) dealloc {
-	[[NSFileManager defaultManager] removeItemAtPath:uuidOfFile error:nil];
+//	[[NSFileManager defaultManager] removeItemAtPath:uuidOfFile error:nil];
 	[URLRequest release];
 	[targetUrl release];
 	[connectionOfURLRequest release];
 	[uuidOfFile release];
-	[fileOutputStream release];
+	[downloadedData release];
 	[xmlParseredData release];
 	[super dealloc];
 }

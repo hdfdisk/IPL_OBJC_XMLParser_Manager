@@ -17,7 +17,7 @@
 	NSURLConnection * connectionOfURLRequest;
 	NSURL * targetUrl;
 	NSString * uuidOfFile;
-	NSOutputStream * fileOutputStream;
+	NSMutableData * downloadedData;
 	id delegate; /*Follow Protocol from ConnectionDelegate.h*/
 	TBXML * xmlParseredData;
 	BOOL ifCompleted;
@@ -25,7 +25,7 @@
 	BOOL ifAutoRetry;
 	
 	ConnectionManager * parentManager;
-	NSString * selfID;
+    CFUUIDRef selfID;
 }
 /* When Inited, URL Request is pending, not launched */
 -(id) initWithURLRequest:(NSMutableURLRequest *)sharedURLRequest
@@ -47,5 +47,5 @@
 @property(nonatomic,readonly) BOOL ifCompleted;
 @property(nonatomic,readonly) BOOL ifError;
 @property(nonatomic,readwrite) BOOL ifAutoRetry;
-@property(nonatomic,readwrite,retain) NSString * selfID;
+@property(nonatomic,readwrite) CFUUIDRef selfID;
 @end

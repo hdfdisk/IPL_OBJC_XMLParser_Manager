@@ -18,25 +18,29 @@
 	NSTimeInterval timeOutInterval;
 	NSURLRequestCachePolicy cachePolicy;
 	
-	NSUInteger selfHashID;
+	CFUUIDRef selfUUID;
 	
 }
+
 -(id)init;
 
--(id)initWithTimeInterval:(NSUInteger)timeInMS 
++(id)sharedConnectionManager;
+
+-(void)setTimeInterval:(NSUInteger)timeInMS 
 	URLRequestCachePolicy:(NSURLRequestCachePolicy)policy
+            queuedRequest:(BOOL)ifQueued
 				AutoRetry:(BOOL)ifRetry
 		   SharedDelegate:(id)delegate; /* This delegate for Class Connections will be shared between all connections */
 
--(NSUInteger) newXMLConnection:(NSURL *)targetURL
+-(CFUUIDRef) newXMLConnection:(NSURL *)targetURL
 			  specificDelegate:(id)delegate; /* If Nil, use shared delegate */
 
 -(void) newXMLConnection:(NSURL *)targetURL 
-			  specificID:(NSString *)hashID 
+			  specificID:(CFUUIDRef)uuid
 		specificDelegate:(id)delegate; /* Never Directly Call This Method */
 
 -(void)connectionQueryingThreadProcess; /* Never Directly Call this Method */
--(id)getTheConnectionFromUUID:(NSUInteger)uuid;
+-(id)getTheConnectionFromUUID:(CFUUIDRef)uuid;
 
-@property (nonatomic,readonly) NSUInteger selfHashID;
+@property (nonatomic,readonly) CFUUIDRef selfHashID;
 @end
