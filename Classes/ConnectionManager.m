@@ -154,6 +154,7 @@
 	/* Destory All XML File and the Directory of this Connection Manager Instance */
 /*	[[NSFileManager defaultManager] removeItemAtPath:[NSString stringWithFormat:@"%@\%@",NSTemporaryDirectory(),(NSString*)CFUUIDCreateString(NULL,selfUUID)] 
 											   error:nil]; */
+    CFRelease(selfUUID);
 	[allPendingConnection release];
 	[allConnection release];
 	[sharedRequest release];
