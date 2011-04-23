@@ -15,6 +15,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		D036F5611362A2690025E468 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = D036F5601362A2690025E468 /* readme.txt */; };
 		D036F56C1362AC5B0025E468 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D036F56B1362AC5B0025E468 /* Reachability.m */; };
+		D036F57C1362B0160025E468 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D036F57B1362B0160025E468 /* SystemConfiguration.framework */; };
 		D0ABAA4E1334966700E86C5A /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ABAA4B1334966700E86C5A /* NSDataAdditions.m */; };
 		D0ABAA4F1334966700E86C5A /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ABAA4D1334966700E86C5A /* TBXML.m */; };
 		D0ABAA56133497E100E86C5A /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ABAA55133497E100E86C5A /* Connection.m */; };
@@ -36,6 +37,7 @@
 		D036F5601362A2690025E468 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		D036F56A1362AC5B0025E468 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		D036F56B1362AC5B0025E468 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D036F57B1362B0160025E468 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D0ABAA4A1334966700E86C5A /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
 		D0ABAA4B1334966700E86C5A /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
 		D0ABAA4C1334966700E86C5A /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D036F57C1362B0160025E468 /* SystemConfiguration.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -122,6 +125,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D036F57B1362B0160025E468 /* SystemConfiguration.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,

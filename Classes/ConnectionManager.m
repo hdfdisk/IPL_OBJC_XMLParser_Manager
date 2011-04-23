@@ -51,7 +51,7 @@
     return sharedManager;
 }
 
--(void)setWithTimeInterval:(NSUInteger)timeInMS 
+-(void)setTimeInterval:(NSUInteger)timeInMS 
      URLRequestCachePolicy:(NSURLRequestCachePolicy)policy 
              queuedRequest:(BOOL)ifQueued
                  AutoRetry:(BOOL)ifRetry 
