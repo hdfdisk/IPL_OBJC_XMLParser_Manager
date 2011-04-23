@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Reachability.h"
 @interface ConnectionManager : NSObject {
 	NSMutableDictionary * allConnection;
 	NSMutableArray * allPendingConnection;
@@ -19,6 +20,8 @@
 	NSURLRequestCachePolicy cachePolicy;
 	
 	CFUUIDRef selfUUID;
+    
+    Reachability * reachabilityTest;
 	
 }
 

@@ -9,7 +9,7 @@
 #import "ConnectionManager.h"
 #import "Connection.h"
 #import "ConnectionDelegate.h"
-
+#import "Reachability.h"
 
 
 @implementation ConnectionManager
@@ -30,7 +30,10 @@
 							  withIntermediateDirectories:YES
 											   attributes:[[NSFileManager defaultManager] attributesOfItemAtPath:NSTemporaryDirectory() error:nil]
 													error:nil]; */
-    queryingThread = nil;    
+    queryingThread = nil;   
+    reachabilityTest = [Reachability reachabilityForInternetConnection];
+    /* Change the above reachability instance into reachabilityForHostName when we have a particular host */
+    [reachabilityTest startNotifier];
     return self;
 }
 
@@ -88,6 +91,7 @@
 -(CFUUIDRef) newXMLConnection:(NSURL *)targetURL
 			  specificDelegate:(id)delegate {
     Connection * newConnection;
+    if ([reachabilityTest currentReachabilityStatus] == NotReachable) return NULL;
     if (allPendingConnection) {
         newConnection = [[Connection alloc] initWithURLRequest:[sharedRequest retain] parentManager:self targetURL:targetURL
                                       ];
